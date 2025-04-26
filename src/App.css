@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,131 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
+
+
+  body {
+    background-color: #11192c;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .nav-link {
+    color: white !important;
+  }
+
+  .hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 100vh;
+    padding: 50px;
+  }
+
+  .hero-text h1 {
+    font-size: 3rem;
+  }
+
+  .hero-text h3 {
+    color: #0ef;
+  }
+
+  .hero-text p {
+    max-width: 500px;
+    margin-top: 20px;
+    line-height: 1.6;
+  }
+
+  .social-icons a {
+    color: white;
+    margin: 0 10px;
+    font-size: 20px;
+  }
+
+  .btn-custom {
+    background-color: #0ef;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+  }
+
+  .profile-pic-container {
+    border-radius: 50%;
+    padding: 5px;
+    background: linear-gradient(45deg, #0ef, #a855f7);
+    display: inline-block;
+  }
+
+  .profile-pic {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #0f172a;
+  }
+
+  .skills-section {
+    padding: 80px 0;
+  }
+
+  .skills-section h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 60px;
+  }
+
+  .skills-section h2 span {
+    color: #0ef;
+  }
+
+  .progress {
+    height: 10px;
+    background-color: #333;
+  }
+
+  .progress-bar {
+    background-color: #0ef;
+  }
+
+  .circular-skill {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: conic-gradient(#0ef var(--value), #2c2c2c 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+    font-weight: bold;
+  }
+
+  .skill-label {
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .tech-skill {
+    margin-bottom: 20px;
+  }
+
+  .tech-skill img {
+    height: 20px;
+    margin-right: 10px;
+  }
+
+  .profile-pic-container2 {
+    border-radius: 50%;
+    padding: 5px;
+    background: linear-gradient(45deg, #0ef, #a855f7);
+    display: inline-block;
+  }
+
+  .profile-pic2 {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #0f172a;
+  }
+
